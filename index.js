@@ -200,7 +200,7 @@ export const createImageProgress = ImageComponent =>
             onError={this.handleError}
             onLoad={this.handleLoad}
             source={source}
-            style={StyleSheet.absoluteFill}
+            style={this.props.style}
           />
           {indicatorElement}
           {children}
